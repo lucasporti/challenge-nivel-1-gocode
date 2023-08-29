@@ -1,0 +1,17 @@
+.navbar.navbar-transparent {
+    position: absolute;
+}
+
+.card {
+    background-color: #0b1011;
+    color: #fff;
+}
+
+.card img {
+    border-radius: 12px;
+}
+
+.img-thumbnail {
+    box-shadow: none;
+    background-color: transparent;
+}
