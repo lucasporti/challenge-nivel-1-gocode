@@ -18,53 +18,57 @@
 
 <body class="profile-page sidebar-collapse">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-body-tertiary" color-on-scroll="300">
     <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="" rel="tooltip" title="">
-        </a>
-      </div>
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo/GoCode.png" alt="GoCode Logo" width="110">
+      </a>
       <div class="collapse navbar-collapse justify-content-end" id="navigation">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom">
-              <i class="fa fa-twitter"></i>
-              <p class="d-lg-none">Twitter</p>
+            <a class="nav-link" rel="tooltip" href="https://www.linkedin.com/company/gocode-ar/?originalSubdomain=ar"
+              target="_blank" title="Follow us on LinkedIn" data-placement="bottom">
+              <i class="fa fa-linkedin-square"></i>
+              <p class="d-lg-none">LinkedIn</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom">
+            <a class="nav-link" rel="tooltip" href="https://www.facebook.com/profile.php?id=100095094614906"
+              target="_blank" title="Like us on Facebook" data-placement="bottom">
               <i class="fa fa-facebook-square"></i>
-              <p class="d-lg-none">Facebook</p>
+              <p class="d-lg-none"></p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom">
+            <a class="nav-link" rel="tooltip" href="https://www.instagram.com/gocode.ar/" target="_blank"
+              title="Follow us on Instagram" data-placement="bottom">
               <i class="fa fa-instagram"></i>
               <p class="d-lg-none">Instagram</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom">
+            <a class="nav-link" rel="tooltip" href="https://github.com/lucasporti" target="_blank" title="Star on GitHub"
+              data-placement="bottom">
               <i class="fa fa-github"></i>
               <p class="d-lg-none">GitHub</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Enlace</a>
+            <a href="./index.html" class="nav-link">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="" class="btn btn-danger btn-round">Botón</a>
+            <a href="./blog.html" class="btn btn-danger btn-round">Blog</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('../assets/img/fabio-mangione.jpg');">
+  <!-- Header -->
+  <div class="page-header" data-parallax="true" style="background-image: url('./assets/img/fabio-mangione.jpg');">
     <div class="filter"></div>
   </div>
-
-  <div class="section post-content">
+  <!-- Main -->
+  <main class="section post-content">
     <div class="container">
       <div class="row">
         <div class="typography-line">
@@ -106,28 +110,36 @@
       </div>      
 
     </div>
-  </div>
+  </main>
 
-
-
-
-
-
+  <!-- Footer -->
   <footer class="footer footer-black footer-white ">
     <div class="container">
+      <section class="d-flex align-items-center justify-content-around border-bottom">
+        <a href="https://www.facebook.com/profile.php?id=100095094614906" class="link-secondary" target="_blank">
+          <i class="fa fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/gocode.ar/" class="link-secondary" target="_blank">
+          <i class="fa fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/gocode-ar/?originalSubdomain=ar" class="link-secondary" target="_blank">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://gocode.ar" class="link-secondary" target="_blank">
+          <img src="./assets/img/logo/icon.png" alt="GoCode icon" width="35px">
+        </a>
+      </section>
       <div class="row">
         <nav class="footer-nav">
           <ul>
             <li class="footer">
-              <a href="post.html" target="_blank">Post</a>
-            </li>
-            <li class="footer">
-              <a href="elementos.html" target="_blank">Elementos</a>
+              <a href="elementos.html">Elementos</a>
             </li>
           </ul>
         </nav>
         <div class="credits ml-auto">
           <span class="copyright">
+            <a href="https://github.com/lucasporti">Lucas Portillo</a>
             ©
             <script>
               document.write(new Date().getFullYear())
